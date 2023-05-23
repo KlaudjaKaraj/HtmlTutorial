@@ -1,0 +1,29 @@
+.h1{
+    color: rgb(188, 74, 74);
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text{
+    text-align: center;
+}
+h5, li {
+    text-align: center;
+}
+#contact{
+    float: right;
+    margin-right: 20px;
+}
+#books{
+    float: right;
+    margin-right: 20px;
+}
+#home{
+    float: right;
+    margin-right: 20px;
+}
