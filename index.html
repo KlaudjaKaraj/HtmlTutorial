@@ -4,27 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
-</head>
-<body>
-    <h3> Employee details.</h3>
-    <form>
-     <p> <label>  First Name : <input type="text" name="firstname"> </label></p>
-     <p> <label> Last Name: <input type="text" name="lastname"></label></p>
-     <p> <label> Phone Number: <input type="number" name="phonenumber"></label></p>
-     <p> <label> Gender : <input type="radio" name="gender "> Female 
-        <input type="radio" name="gender "> Male </label></p>
-        <button type="submit" > Submit </button>
-        <!-- <p>Choose a color: <br>
-            <input type="checkbox" name="color" value="red"> Red <br>
-            <input type="checkbox" name="color" value="green"> Green<br>
-            <input type="checkbox" name="color" value="blue">Blue <br>
-            
-        </p>
-    -->
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: black;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            color: lightpink;
+            font-family: monospace;
+            font-size: 24px;
+        }
+        #backend{
+            scale: -1;
+        }
+        .frontend{
+            text-align: center; 
+            height: 60px;
+        }
+
+        @keyframes rotate {
+            0% {rotate:0deg;}
+            50% {rotate:180deg;}
+            100% {rotate:360deg;}
+        }
+        .icon{
+            scale: 2;
+            height: 40px;
+            text-align: center;
+        }
+
+
+        main{
+            animation: rotate 10s infinite;
+        }
 
         
-    </form>
-    
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="frontend"> Frontend </div>
+        <div class="icon"> 🤍 </div>
+        <!--https://emojipedia.org/white-heart/-->
+        <div id="backend"> Backend </div>
+    </main>
 </body>
 </html>
